@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6D209F28712CBA0072E666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D209E28712CBA0072E666 /* AppDelegate.swift */; };
+		4D6D20A128712CBA0072E666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20A028712CBA0072E666 /* SceneDelegate.swift */; };
+		4D6D20A328712CBA0072E666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20A228712CBA0072E666 /* ViewController.swift */; };
+		4D6D20A628712CBA0072E666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D20A428712CBA0072E666 /* Main.storyboard */; };
+		4D6D20A928712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */; };
+		4D6D20AB28712CBC0072E666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D20AA28712CBC0072E666 /* Assets.xcassets */; };
+		4D6D20AE28712CBC0072E666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D20AC28712CBC0072E666 /* LaunchScreen.storyboard */; };
+		4D6D20B928712CBC0072E666 /* JefitTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */; };
+		4D6D20C328712CBC0072E666 /* JefitTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */; };
+		4D6D20C528712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6D20B528712CBC0072E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6D209328712CBA0072E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6D209A28712CBA0072E666;
+			remoteInfo = JefitTakeHomeProject;
+		};
+		4D6D20BF28712CBC0072E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6D209328712CBA0072E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6D209A28712CBA0072E666;
+			remoteInfo = JefitTakeHomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D6D209B28712CBA0072E666 /* JefitTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JefitTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D209E28712CBA0072E666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D6D20A028712CBA0072E666 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D6D20A228712CBA0072E666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D6D20A528712CBA0072E666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D6D20A828712CBA0072E666 /* JefitTakeHomeProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JefitTakeHomeProject.xcdatamodel; sourceTree = "<group>"; };
+		4D6D20AA28712CBC0072E666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D6D20AD28712CBC0072E666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D6D20AF28712CBC0072E666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6D20B428712CBC0072E666 /* JefitTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JefitTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectTests.swift; sourceTree = "<group>"; };
+		4D6D20BE28712CBC0072E666 /* JefitTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JefitTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
+		4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6D209828712CBA0072E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20B128712CBC0072E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20BB28712CBC0072E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D6D209228712CBA0072E666 = {
+			isa = PBXGroup;
+			children = (
+				4D6D209D28712CBA0072E666 /* JefitTakeHomeProject */,
+				4D6D20B728712CBC0072E666 /* JefitTakeHomeProjectTests */,
+				4D6D20C128712CBC0072E666 /* JefitTakeHomeProjectUITests */,
+				4D6D209C28712CBA0072E666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6D209C28712CBA0072E666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D209B28712CBA0072E666 /* JefitTakeHomeProject.app */,
+				4D6D20B428712CBC0072E666 /* JefitTakeHomeProjectTests.xctest */,
+				4D6D20BE28712CBC0072E666 /* JefitTakeHomeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6D209D28712CBA0072E666 /* JefitTakeHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D209E28712CBA0072E666 /* AppDelegate.swift */,
+				4D6D20A028712CBA0072E666 /* SceneDelegate.swift */,
+				4D6D20A228712CBA0072E666 /* ViewController.swift */,
+				4D6D20A428712CBA0072E666 /* Main.storyboard */,
+				4D6D20AA28712CBC0072E666 /* Assets.xcassets */,
+				4D6D20AC28712CBC0072E666 /* LaunchScreen.storyboard */,
+				4D6D20AF28712CBC0072E666 /* Info.plist */,
+				4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */,
+			);
+			path = JefitTakeHomeProject;
+			sourceTree = "<group>";
+		};
+		4D6D20B728712CBC0072E666 /* JefitTakeHomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */,
+			);
+			path = JefitTakeHomeProjectTests;
+			sourceTree = "<group>";
+		};
+		4D6D20C128712CBC0072E666 /* JefitTakeHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */,
+				4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */,
+			);
+			path = JefitTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6D209A28712CBA0072E666 /* JefitTakeHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6D20C828712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProject" */;
+			buildPhases = (
+				4D6D209728712CBA0072E666 /* Sources */,
+				4D6D209828712CBA0072E666 /* Frameworks */,
+				4D6D209928712CBA0072E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JefitTakeHomeProject;
+			productName = JefitTakeHomeProject;
+			productReference = 4D6D209B28712CBA0072E666 /* JefitTakeHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6D20B328712CBC0072E666 /* JefitTakeHomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6D20CB28712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProjectTests" */;
+			buildPhases = (
+				4D6D20B028712CBC0072E666 /* Sources */,
+				4D6D20B128712CBC0072E666 /* Frameworks */,
+				4D6D20B228712CBC0072E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6D20B628712CBC0072E666 /* PBXTargetDependency */,
+			);
+			name = JefitTakeHomeProjectTests;
+			productName = JefitTakeHomeProjectTests;
+			productReference = 4D6D20B428712CBC0072E666 /* JefitTakeHomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D6D20BD28712CBC0072E666 /* JefitTakeHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6D20CE28712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProjectUITests" */;
+			buildPhases = (
+				4D6D20BA28712CBC0072E666 /* Sources */,
+				4D6D20BB28712CBC0072E666 /* Frameworks */,
+				4D6D20BC28712CBC0072E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6D20C028712CBC0072E666 /* PBXTargetDependency */,
+			);
+			name = JefitTakeHomeProjectUITests;
+			productName = JefitTakeHomeProjectUITests;
+			productReference = 4D6D20BE28712CBC0072E666 /* JefitTakeHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6D209328712CBA0072E666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4D6D209A28712CBA0072E666 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4D6D20B328712CBC0072E666 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4D6D209A28712CBA0072E666;
+					};
+					4D6D20BD28712CBC0072E666 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4D6D209A28712CBA0072E666;
+					};
+				};
+			};
+			buildConfigurationList = 4D6D209628712CBA0072E666 /* Build configuration list for PBXProject "JefitTakeHomeProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D6D209228712CBA0072E666;
+			productRefGroup = 4D6D209C28712CBA0072E666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6D209A28712CBA0072E666 /* JefitTakeHomeProject */,
+				4D6D20B328712CBC0072E666 /* JefitTakeHomeProjectTests */,
+				4D6D20BD28712CBC0072E666 /* JefitTakeHomeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6D209928712CBA0072E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6D20AE28712CBC0072E666 /* LaunchScreen.storyboard in Resources */,
+				4D6D20AB28712CBC0072E666 /* Assets.xcassets in Resources */,
+				4D6D20A628712CBA0072E666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20B228712CBC0072E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20BC28712CBC0072E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6D209728712CBA0072E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6D20A928712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld in Sources */,
+				4D6D20A328712CBA0072E666 /* ViewController.swift in Sources */,
+				4D6D209F28712CBA0072E666 /* AppDelegate.swift in Sources */,
+				4D6D20A128712CBA0072E666 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20B028712CBC0072E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6D20B928712CBC0072E666 /* JefitTakeHomeProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D20BA28712CBC0072E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6D20C328712CBC0072E666 /* JefitTakeHomeProjectUITests.swift in Sources */,
+				4D6D20C528712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6D20B628712CBC0072E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6D209A28712CBA0072E666 /* JefitTakeHomeProject */;
+			targetProxy = 4D6D20B528712CBC0072E666 /* PBXContainerItemProxy */;
+		};
+		4D6D20C028712CBC0072E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6D209A28712CBA0072E666 /* JefitTakeHomeProject */;
+			targetProxy = 4D6D20BF28712CBC0072E666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6D20A428712CBA0072E666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6D20A528712CBA0072E666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6D20AC28712CBC0072E666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6D20AD28712CBC0072E666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6D20C628712CBC0072E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D6D20C728712CBC0072E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6D20C928712CBC0072E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JefitTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D6D20CA28712CBC0072E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JefitTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D6D20CC28712CBC0072E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JefitTakeHomeProject.app/JefitTakeHomeProject";
+			};
+			name = Debug;
+		};
+		4D6D20CD28712CBC0072E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JefitTakeHomeProject.app/JefitTakeHomeProject";
+			};
+			name = Release;
+		};
+		4D6D20CF28712CBC0072E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JefitTakeHomeProject;
+			};
+			name = Debug;
+		};
+		4D6D20D028712CBC0072E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8TA469X5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefit.JefitTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JefitTakeHomeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6D209628712CBA0072E666 /* Build configuration list for PBXProject "JefitTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6D20C628712CBC0072E666 /* Debug */,
+				4D6D20C728712CBC0072E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6D20C828712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6D20C928712CBC0072E666 /* Debug */,
+				4D6D20CA28712CBC0072E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6D20CB28712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6D20CC28712CBC0072E666 /* Debug */,
+				4D6D20CD28712CBC0072E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6D20CE28712CBC0072E666 /* Build configuration list for PBXNativeTarget "JefitTakeHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6D20CF28712CBC0072E666 /* Debug */,
+				4D6D20D028712CBC0072E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D6D20A828712CBA0072E666 /* JefitTakeHomeProject.xcdatamodel */,
+			);
+			currentVersion = 4D6D20A828712CBA0072E666 /* JefitTakeHomeProject.xcdatamodel */;
+			path = JefitTakeHomeProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D6D209328712CBA0072E666 /* Project object */;
+}
