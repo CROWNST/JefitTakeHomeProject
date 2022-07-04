@@ -17,6 +17,8 @@
 		4D6D20B928712CBC0072E666 /* JefitTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */; };
 		4D6D20C328712CBC0072E666 /* JefitTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */; };
 		4D6D20C528712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */; };
+		4D6D20D62872650C0072E666 /* YelpFusionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20D52872650C0072E666 /* YelpFusionClient.swift */; };
+		4D6D20D8287271820072E666 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20D7287271810072E666 /* ApiKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4D6D20BE28712CBC0072E666 /* JefitTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JefitTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
 		4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D6D20D52872650C0072E666 /* YelpFusionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpFusionClient.swift; sourceTree = "<group>"; };
+		4D6D20D7287271810072E666 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +105,15 @@
 		4D6D209D28712CBA0072E666 /* JefitTakeHomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D20D42871302D0072E666 /* Networking */,
+				4D6D20D328712F960072E666 /* ViewModel */,
+				4D6D20D228712F8E0072E666 /* View */,
+				4D6D20D128712F780072E666 /* Model */,
 				4D6D209E28712CBA0072E666 /* AppDelegate.swift */,
 				4D6D20A028712CBA0072E666 /* SceneDelegate.swift */,
-				4D6D20A228712CBA0072E666 /* ViewController.swift */,
-				4D6D20A428712CBA0072E666 /* Main.storyboard */,
 				4D6D20AA28712CBC0072E666 /* Assets.xcassets */,
 				4D6D20AC28712CBC0072E666 /* LaunchScreen.storyboard */,
 				4D6D20AF28712CBC0072E666 /* Info.plist */,
-				4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */,
 			);
 			path = JefitTakeHomeProject;
 			sourceTree = "<group>";
@@ -128,6 +133,39 @@
 				4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */,
 			);
 			path = JefitTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		4D6D20D128712F780072E666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D6D20D228712F8E0072E666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20A228712CBA0072E666 /* ViewController.swift */,
+				4D6D20A428712CBA0072E666 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D6D20D328712F960072E666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D6D20D42871302D0072E666 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20D52872650C0072E666 /* YelpFusionClient.swift */,
+				4D6D20D7287271810072E666 /* ApiKey.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6D20D62872650C0072E666 /* YelpFusionClient.swift in Sources */,
 				4D6D20A928712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld in Sources */,
 				4D6D20A328712CBA0072E666 /* ViewController.swift in Sources */,
 				4D6D209F28712CBA0072E666 /* AppDelegate.swift in Sources */,
+				4D6D20D8287271820072E666 /* ApiKey.swift in Sources */,
 				4D6D20A128712CBA0072E666 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
