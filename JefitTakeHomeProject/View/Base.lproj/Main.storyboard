@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-1229" y="-88"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="VLm-8Y-hZW">
             <objects>
-                <tableViewController id="Tpe-5o-989" sceneMemberID="viewController">
+                <tableViewController id="Tpe-5o-989" customClass="HomeViewController" customModule="JefitTakeHomeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="CZs-ih-uWe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
