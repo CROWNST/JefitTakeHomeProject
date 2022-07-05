@@ -13,5 +13,9 @@ class HomeViewController: UITableViewController {
         super.viewDidLoad()
         
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return fetchedResultsController.sections?[section].numberOfObjects ?? 0
+    }
 }
 

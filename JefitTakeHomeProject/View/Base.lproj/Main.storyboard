@@ -40,6 +40,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="VQf-hi-u4V" kind="show" id="f8U-Jv-Cf7"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -48,9 +51,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Q0U-O9-K4I"/>
-                    <connections>
-                        <segue destination="VQf-hi-u4V" kind="show" id="YrZ-Hj-Ynp"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9k-0V-BtU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,6 +72,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="o0w-5A-26z" kind="show" id="KDq-Lg-WPp"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -80,9 +83,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="FbW-5m-wAe"/>
-                    <connections>
-                        <segue destination="o0w-5A-26z" kind="show" id="7OJ-RR-fms"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SkG-vg-Czf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

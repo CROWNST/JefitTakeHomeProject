@@ -27,6 +27,8 @@
 		4D6D20E8287372FC0072E666 /* ReviewResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20E7287372FC0072E666 /* ReviewResults.swift */; };
 		4D6D20EA287373170072E666 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20E9287373170072E666 /* Review.swift */; };
 		4D6D20EC287373880072E666 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20EB287373880072E666 /* User.swift */; };
+		4D6D20EF2873C2440072E666 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20EE2873C2440072E666 /* DataController.swift */; };
+		4D6D20F12873C7870072E666 /* CoreDataLikesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20F02873C7870072E666 /* CoreDataLikesRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		4D6D20E7287372FC0072E666 /* ReviewResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewResults.swift; sourceTree = "<group>"; };
 		4D6D20E9287373170072E666 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		4D6D20EB287373880072E666 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D6D20EE2873C2440072E666 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		4D6D20F02873C7870072E666 /* CoreDataLikesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLikesRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,9 +157,9 @@
 		4D6D20D128712F780072E666 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D20ED2873C2080072E666 /* CoreData */,
 				4D6D20E228736AA40072E666 /* YelpFusionResponses */,
 				4D6D20E128736A560072E666 /* YelpFusionClient */,
-				4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 		4D6D20D328712F960072E666 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4D6D20F2287418C60072E666 /* HomeViewModels */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -214,6 +219,23 @@
 				4D6D20EB287373880072E666 /* User.swift */,
 			);
 			path = GetBusinessReviewsResponse;
+			sourceTree = "<group>";
+		};
+		4D6D20ED2873C2080072E666 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */,
+				4D6D20EE2873C2440072E666 /* DataController.swift */,
+				4D6D20F02873C7870072E666 /* CoreDataLikesRepository.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4D6D20F2287418C60072E666 /* HomeViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +372,7 @@
 				4D6D20D62872650C0072E666 /* YelpFusionClient.swift in Sources */,
 				4D6D20DA2872BD110072E666 /* YelpFusionErrorResponse.swift in Sources */,
 				4D6D20E8287372FC0072E666 /* ReviewResults.swift in Sources */,
+				4D6D20F12873C7870072E666 /* CoreDataLikesRepository.swift in Sources */,
 				4D6D20E02872CCD10072E666 /* Location.swift in Sources */,
 				4D6D20A928712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld in Sources */,
 				4D6D20A328712CBA0072E666 /* HomeViewController.swift in Sources */,
@@ -357,6 +380,7 @@
 				4D6D209F28712CBA0072E666 /* AppDelegate.swift in Sources */,
 				4D6D20DE2872CC1D0072E666 /* Category.swift in Sources */,
 				4D6D20EA287373170072E666 /* Review.swift in Sources */,
+				4D6D20EF2873C2440072E666 /* DataController.swift in Sources */,
 				4D6D20DC2872C7390072E666 /* Business.swift in Sources */,
 				4D6D20D8287271820072E666 /* ApiKey.swift in Sources */,
 				4D6D20E428736E460072E666 /* BusinessResults.swift in Sources */,
