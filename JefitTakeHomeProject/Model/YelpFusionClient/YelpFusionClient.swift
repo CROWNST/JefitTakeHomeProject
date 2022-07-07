@@ -15,11 +15,13 @@ class YelpFusionClient {
         
         case getBusinesses(String)
         case getBusinessReviews(String)
+        case getImage(String)
         
         var stringValue: String {
             switch self {
-            case .getBusinesses(let city): return Endpoints.base + "/businesses/search?location=\(city)&limit=\(Endpoints.limitBusinesses)"
+            case .getBusinesses(let city): return Endpoints.base + "/businesses/search?location=\(city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&limit=\(Endpoints.limitBusinesses)"
             case .getBusinessReviews(let id): return Endpoints.base + "/businesses/\(id)/reviews"
+            case .getImage(let imageUrl): return imageUrl
             }
         }
         
@@ -38,6 +40,21 @@ class YelpFusionClient {
         taskForGETRequest(url: Endpoints.getBusinessReviews(id).url, responseType: ReviewResults.self) { result in
             completion(result)
         }
+    }
+    
+    class func getImage(imageUrl: String, completion: @escaping (Result<Data, Error>) -> Void) {
+        let task = URLSession.shared.dataTask(with: Endpoints.getImage(imageUrl).url) { data, response, error in
+            guard let data = data else {
+                DispatchQueue.main.async {
+                    completion(.failure(error!))
+                }
+                return
+            }
+            DispatchQueue.main.async {
+                completion(.success(data))
+            }
+        }
+        task.resume()
     }
     
     private class func taskForGETRequest<ResponseType: Decodable>(url: URL, responseType: ResponseType.Type, completion: @escaping (Result<ResponseType, Error>) -> Void) {

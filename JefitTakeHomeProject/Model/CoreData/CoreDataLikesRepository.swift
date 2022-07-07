@@ -30,11 +30,23 @@ class CoreDataLikesRepository {
         }
     }
     
+    func get(ids: [String]) -> Result<[Like?], Error> {
+        var likes = [Like?]()
+        for i in 0..<ids.count {
+            let result = get(id: ids[i])
+            switch result {
+            case let .failure(error): return .failure(error)
+            case let .success(like):
+                likes.append(like)
+            }
+        }
+        return .success(likes)
+    }
+    
     func create(id: String) -> Result<Like?, Error> {
         var newLike: Like!
         switch get(id: id) {
-        case let .failure(error):
-            return .failure(error)
+        case let .failure(error): return .failure(error)
         case let .success(like):
             if like == nil {
                 newLike = Like(context: managedObjectContext)
@@ -45,7 +57,7 @@ class CoreDataLikesRepository {
             try managedObjectContext.save()
             return .success(newLike)
         } catch {
-            managedObjectContext.reset()
+            managedObjectContext.rollback()
             return .failure(error)
         }
     }
@@ -56,7 +68,7 @@ class CoreDataLikesRepository {
             try managedObjectContext.save()
             return nil
         } catch {
-            managedObjectContext.reset()
+            managedObjectContext.rollback()
             return error
         }
     }
