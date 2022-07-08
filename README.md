@@ -5,7 +5,7 @@ Thanks for seeing my project! This project requires iOS 15.5 and Swift 5 to run.
 open the project in Xcode, select a simulator, and click the run button. The project can be found
 online at https://github.com/CROWNST/JefitTakeHomeProject. However, the file containing the Yelp Fusion API key is
 ignored by version control, so the project must be run from the zip file.
-## How to Run the Project
+## How to Use the Project
 After the app loads, a list of five city names appears on the home screen. Selecting a city name 
 navigates to the business screen, showing at most ten business names in the selected city. Next to
 each business name is a either a filled heart if it is liked by the user, or an empty heart if it
