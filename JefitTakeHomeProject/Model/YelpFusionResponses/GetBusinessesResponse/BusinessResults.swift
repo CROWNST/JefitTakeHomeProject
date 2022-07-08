@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Response type for Business Search endpoint.
 struct BusinessResults: Codable {
     let businesses: [Business]
     let total: Int

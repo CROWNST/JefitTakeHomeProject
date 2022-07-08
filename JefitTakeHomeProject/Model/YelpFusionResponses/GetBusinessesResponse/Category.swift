@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Contains data for a category.
 struct Category: Codable {
     let alias: String
     let title: String

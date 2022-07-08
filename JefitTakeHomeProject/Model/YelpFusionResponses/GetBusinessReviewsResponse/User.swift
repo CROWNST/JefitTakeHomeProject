@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Contains data for one user.
 struct User: Codable {
     let name: String
 }

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controls the business details screen view.
 class BusinessDetailsViewController: UIViewController {
 
     @IBOutlet weak var likeButton: UIBarButtonItem!
@@ -18,6 +19,7 @@ class BusinessDetailsViewController: UIViewController {
     @IBOutlet weak var reviewsLabel: UILabel!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
     
+    /// View model for the business detail view.
     var businessDetailViewViewModel: BusinessDetailViewViewModel!
     
     @IBAction func likeButtonTapped(_ sender: Any) {
@@ -31,6 +33,7 @@ class BusinessDetailsViewController: UIViewController {
         showLike(show: businessDetailViewViewModel.liked)
     }
     
+    /// Sets UI-changing methods of the view model and initializes its reviews view model and image data.
     private func setupBusinessDetailViewViewModel() {
         businessDetailViewViewModel.showError = { [weak self] message in
             DispatchQueue.main.async { self?.showAlert(message) }
@@ -59,6 +62,7 @@ class BusinessDetailsViewController: UIViewController {
         businessDetailViewViewModel.initBusinessImage()
     }
     
+    /// Updates the UI to include business information.
     private func setBusinessInfo() {
         let business = businessDetailViewViewModel.businessViewModel.business
         nameLabel.text = business.name
@@ -67,6 +71,8 @@ class BusinessDetailsViewController: UIViewController {
         ratingLabel.text = "Rating: \(business.rating)"
     }
     
+    /// Updates the UI with updated like status.
+    /// - Parameter show: Whether to like the business or not.
     private func showLike(show: Bool) {
         if show { likeButton.image = UIImage(systemName: "heart.fill") } else { likeButton.image = UIImage(systemName: "heart") }
     }

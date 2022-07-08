@@ -7,13 +7,19 @@
 
 import Foundation
 
+/// View model for the table view of cities.
 struct CitiesTableViewViewModel {
-    var cityViewModels = Cities.names.map { CityViewModel(name: $0) }
-    var numCells: Int {
-        return cityViewModels.count
-    }
+
+    /// Contains city view models.
+    let cityViewModels = Cities.names.map { CityViewModel(name: $0) }
     
-    func getCityName(at indexPath: IndexPath) -> String {
+    /// Returns the name of a city at the index.
+    /// - Parameter indexPath: The selected table view index path.
+    /// - Returns: The city name or nil if index out of bounds.
+    func getCityName(at indexPath: IndexPath) -> String? {
+        guard indexPath.row >= 0 && indexPath.row < cityViewModels.count else {
+            return nil
+        }
         return cityViewModels[indexPath.row].name
     }
 }

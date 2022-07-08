@@ -14,9 +14,6 @@
 		4D6D20A928712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20A728712CBA0072E666 /* JefitTakeHomeProject.xcdatamodeld */; };
 		4D6D20AB28712CBC0072E666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D20AA28712CBC0072E666 /* Assets.xcassets */; };
 		4D6D20AE28712CBC0072E666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6D20AC28712CBC0072E666 /* LaunchScreen.storyboard */; };
-		4D6D20B928712CBC0072E666 /* JefitTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */; };
-		4D6D20C328712CBC0072E666 /* JefitTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */; };
-		4D6D20C528712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */; };
 		4D6D20D62872650C0072E666 /* YelpFusionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20D52872650C0072E666 /* YelpFusionClient.swift */; };
 		4D6D20D8287271820072E666 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20D7287271810072E666 /* ApiKey.swift */; };
 		4D6D20DA2872BD110072E666 /* YelpFusionErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D20D92872BD110072E666 /* YelpFusionErrorResponse.swift */; };
@@ -68,10 +65,7 @@
 		4D6D20AD28712CBC0072E666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6D20AF28712CBC0072E666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6D20B428712CBC0072E666 /* JefitTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JefitTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectTests.swift; sourceTree = "<group>"; };
 		4D6D20BE28712CBC0072E666 /* JefitTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JefitTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
-		4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JefitTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D6D20D52872650C0072E666 /* YelpFusionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpFusionClient.swift; sourceTree = "<group>"; };
 		4D6D20D7287271810072E666 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 		4D6D20D92872BD110072E666 /* YelpFusionErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpFusionErrorResponse.swift; sourceTree = "<group>"; };
@@ -124,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				4D6D209D28712CBA0072E666 /* JefitTakeHomeProject */,
-				4D6D20B728712CBC0072E666 /* JefitTakeHomeProjectTests */,
-				4D6D20C128712CBC0072E666 /* JefitTakeHomeProjectUITests */,
 				4D6D209C28712CBA0072E666 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,23 +145,6 @@
 				4D6D20AF28712CBC0072E666 /* Info.plist */,
 			);
 			path = JefitTakeHomeProject;
-			sourceTree = "<group>";
-		};
-		4D6D20B728712CBC0072E666 /* JefitTakeHomeProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				4D6D20B828712CBC0072E666 /* JefitTakeHomeProjectTests.swift */,
-			);
-			path = JefitTakeHomeProjectTests;
-			sourceTree = "<group>";
-		};
-		4D6D20C128712CBC0072E666 /* JefitTakeHomeProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4D6D20C228712CBC0072E666 /* JefitTakeHomeProjectUITests.swift */,
-				4D6D20C428712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift */,
-			);
-			path = JefitTakeHomeProjectUITests;
 			sourceTree = "<group>";
 		};
 		4D6D20D128712F780072E666 /* Model */ = {
@@ -420,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6D20B928712CBC0072E666 /* JefitTakeHomeProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +402,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6D20C328712CBC0072E666 /* JefitTakeHomeProjectUITests.swift in Sources */,
-				4D6D20C528712CBC0072E666 /* JefitTakeHomeProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

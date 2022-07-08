@@ -7,8 +7,10 @@
 
 import Foundation
 
+/// View model for a business.
 class BusinessViewModel {
     let business: Business
+    /// Contains nil if business not liked.
     var like: Like?
     
     init(business: Business, like: Like?) {

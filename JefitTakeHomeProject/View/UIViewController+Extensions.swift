@@ -8,6 +8,9 @@
 import UIKit
 
 extension UIViewController {
+    
+    /// Shows alert view with given message.
+    /// - Parameter message: Message to display in alert view.
     func showAlert(_ message: String) {
         let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
         alert.addAction( UIAlertAction(title: "Ok", style: .cancel, handler: nil))

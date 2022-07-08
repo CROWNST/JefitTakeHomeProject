@@ -7,9 +7,11 @@
 
 import Foundation
 
+/// Contains data for a location.
 struct Location: Codable {
     let displayAddress: [String]
     
+    /// Displayable address.
     var address: String {
         return displayAddress.joined(separator: ", ")
     }

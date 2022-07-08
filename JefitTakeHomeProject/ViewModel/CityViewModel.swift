@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// View model of a city
 struct CityViewModel {
     let name: String
 }

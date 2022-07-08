@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Response type for Reviews endpoint.
 struct ReviewResults: Codable {
     let reviews: [Review]
     let total: Int

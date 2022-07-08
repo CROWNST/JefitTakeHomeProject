@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Contains data for one business.
 struct Business: Codable {
     let id: String
     let name: String
@@ -15,9 +16,11 @@ struct Business: Codable {
     let rating: Double
     let location: Location
     
+    /// Displayable address.
     var address: String {
         return location.address
     }
+    /// Categories as a formatted list.
     var categoryList: String {
         return categories.map { $0.title }.joined(separator: ", ")
     }

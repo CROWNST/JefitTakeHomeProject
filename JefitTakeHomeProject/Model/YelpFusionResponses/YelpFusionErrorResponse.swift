@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Response type for Yelp Fusion API errors.
 struct YelpFusionErrorResponse: Codable {
     let error: [String:String]
 }

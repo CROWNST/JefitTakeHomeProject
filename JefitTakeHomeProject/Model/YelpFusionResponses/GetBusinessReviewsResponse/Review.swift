@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Contains data for one review.
 struct Review: Codable {
     let rating: Int
     let user: User
